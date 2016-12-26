@@ -54,11 +54,4 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
-  yelp_api = { consumer_key: "wkYn1Vpp85jFwM1jUFCuEg",
-               consumer_secret: "9edatASynSP1-bqia3oRA-Fx_Z8",
-               token: "JuRtpF95wsG5sOskvsBPXPd3e-1bIx98",
-               token_secret: "L58HK1jRigqkAS55jKR1aV94EHM"
-             }
-
-
 end
