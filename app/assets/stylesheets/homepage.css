@@ -1,0 +1,33 @@
+.jumbotron {
+  background: rgba(240,240,201,0.9)
+}
+
+.jumbotron-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  width: 25%;
+}
+
+.jumbotron p{
+  margin-top: 40px;
+  color: #124E78;
+  font-size: 16px;
+  text-align: center;
+}
+
+.outside{
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #6E0E0A;
+  border: none;
+  border-radius: 0;
+  color: #F0F0C9;
+}

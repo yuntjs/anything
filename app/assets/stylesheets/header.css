@@ -1,0 +1,28 @@
+.navbar{
+  margin-bottom: 0px;
+  background-color: #D74E09;
+  border: none;
+  border-radius: 0;
+  height: 90px;
+}
+
+.navbar-default .navbar-brand {
+  color: #F2BB05;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #F2BB05;
+}
+
+.dropdown-menu {
+  z-index: 10;
+}
+
+.logo_icon{
+  width: 30%;
+  height: auto;
+}
+
+.dropdown-toggle {
+  margin-top: 20px;
+}

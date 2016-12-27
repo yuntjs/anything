@@ -10,6 +10,35 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
  *= require_self
+ *= require_tree .
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('supreme-pizza.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.site-content{
+  flex: 1;
+  color: #F0F0C9;
+}
+
+.container{
+  width: 960px;
+}
+
+.footer{
+  background-color: #422617;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
