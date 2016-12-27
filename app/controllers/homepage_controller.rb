@@ -7,6 +7,6 @@ class HomepageController < ApplicationController
       token: 'JuRtpF95wsG5sOskvsBPXPd3e-1bIx98',
       token_secret: 'L58HK1jRigqkAS55jKR1aV94EHM'
       })
-    p client.search('22312',{ term: 'restaurant', limit: 40 }).businesses
+     p restaurants = client.search('22312',{ term: 'restaurant', limit: 40, category_filter: 'italian' }).businesses     
   end
 end
