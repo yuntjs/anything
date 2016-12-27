@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+# require 'json'
+#
+# file = File.read('db/seeds/categories.json')
+# data_hash = JSON.parse(file)
+#
+# data_hash.each do |a|
+#   p a['parents']
+# end
+
+# p data_hash[0]
