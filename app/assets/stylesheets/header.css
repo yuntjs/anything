@@ -7,11 +7,14 @@
 }
 
 .navbar-default .navbar-brand {
+  font-family: 'Viga', sans-serif;
   color: #F2BB05;
 }
 
 .navbar-default .navbar-nav > li > a {
   color: #F2BB05;
+  font-family: 'Viga', sans-serif;
+  font-size: 30px;
 }
 
 .dropdown-menu {
