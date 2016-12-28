@@ -37,14 +37,6 @@
   justify-content: center;
 }
 
-@keyframes wiggle {
-    0% { transform: rotate(0deg); }
-   80% { transform: rotate(0deg); }
-   85% { transform: rotate(5deg); }
-   95% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
-}
-
 .btn {
   background-color: #6E0E0A;
   border: none;
@@ -56,9 +48,4 @@
 .btn:hover{
   background-color: #6E0E0A;
   width: 150px;
-  animation: wiggle 2.5s infinite;
-}
-
-input, textarea, select {
-  font-family: 'EB Garamond', serif;
 }
