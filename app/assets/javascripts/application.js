@@ -17,5 +17,5 @@
 //= require_tree .
 
 $(document).ready(function(){
-
+  new Controller().initialize();
 })
