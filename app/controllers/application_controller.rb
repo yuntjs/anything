@@ -5,5 +5,5 @@ class ApplicationController < ActionController::Base
     1609.34 * miles
   end
 
-  helper_methods :miles_to_meter
+  helper_method :miles_to_meter
 end
