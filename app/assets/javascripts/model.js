@@ -1,1 +1,1 @@
-function View(){}
+function Model(){}

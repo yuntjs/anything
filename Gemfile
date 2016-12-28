@@ -39,6 +39,7 @@ gem 'devise'
 gem 'yelp', require: 'yelp'
 gem 'json'
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'jquery-turbolinks'
 
 
 group :development, :test do

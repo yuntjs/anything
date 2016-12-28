@@ -1,0 +1,17 @@
+
+<div class="jumbotron">
+  <div class="container jumbotron-container">
+
+    <div class="differ-content result">
+      <p><%= @selected_restaurant.name %></p>
+      <p><a href='<%= @selected_restaurant.url %>'>Yelp Site</a></p>
+      <p><%= @selected_restaurant.location.display_address[0] %></p>
+      <p><%= @selected_restaurant.location.display_address[1] %></p>
+    </div>
+
+  </div>
+</div>
+
+<div class="outside container">
+  <p><a class="btn btn-primary btn-lg" id='again-btn' role="button">Another Place, Please</a></p>
+</div>

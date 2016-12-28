@@ -11,11 +11,14 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function(){
-  new Controller().initialize();
+// $(document).ready(function(){
+$(document).on('turbolinks:load', function() {
+  controller = new Controller();
+  controller.initialize();
 })
