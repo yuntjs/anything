@@ -1,10 +1,13 @@
 <div class="jumbotron">
   <div class="container jumbotron-container">
     <%= image_tag("anything-logo.png", class:"logo") %>
-    <p>"What do you want to eat?", says Bob. "Anything, you want", replied Sarah. "I asked you, first!", replied Bob filled with annoyance.<br>Sound familiar? Use this app and just get anything</p>
+    <div class="differ-content">
+      <p>"What do you want to eat?", says Bob.<br>"Anything, you want", replied Sarah.<br>"I asked you, first!", replied Bob filled with annoyance.<br><span class="description-bold"><em>Sound familiar?</em> Use this app and just get anything</span></p>
+    </div>
   </div>
 </div>
 
 <div class="outside container">
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Get Anything</a></p>
+
+  <p><%= link_to "Get Anything", {controller: "restaurants"}, class: "btn btn-primary btn-lg", role: "button" %></p>
 </div>
