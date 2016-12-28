@@ -35,6 +35,8 @@
 .outside{
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .btn {
@@ -43,6 +45,7 @@
   border-radius: 0;
   color: #F0F0C9;
   font-family: 'Viga', sans-serif;
+  align-self: center;
 }
 
 .btn:hover{
