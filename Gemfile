@@ -39,6 +39,7 @@ gem 'devise'
 gem 'yelp', require: 'yelp'
 gem 'json'
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'google-webfonts-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
