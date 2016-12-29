@@ -1,0 +1,22 @@
+<div class="jumbotron">
+  <div class="container jumbotron-container">
+    <div class="differ-content result">
+      <h2><strong>Connect with me</strong></h2>
+    </div>
+    <div class='contact-logos'>
+      <%= link_to "https://www.linkedin.com/in/yuntsj", :target => "_blank" do %>
+        <%= image_tag("linkedin-logo.png", class:"contact-logo", alt: "linkedin") %>
+      <% end %>
+
+      <%= link_to "https://github.com/yuntjs", :target => "_blank" do %>
+        <%= image_tag("github-logo.png", class:"contact-logo", alt:"github-handle") %>
+      <% end %>
+
+      <a class="gmail" href="#"><%= image_tag("gmail-logo.ico", class:"contact-logo") %></a>
+
+    </div>
+
+    <div class="gmail-div" id="gmail-insert"><span class='email-text'></span></div>
+
+  </div>
+</div>

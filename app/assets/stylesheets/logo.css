@@ -1,0 +1,21 @@
+.contact-logos{
+  margin-bottom: 50px;
+}
+
+.contact-logo{
+  width: 150px;
+  height: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.gmail-div{
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.email-text{
+  color: #124E78;
+  font-size: 20px;
+  font-weight: bold;
+}
