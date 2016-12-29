@@ -54,7 +54,17 @@ Controller.prototype.findAgain = function(){
   })
 }
 
+Controller.prototype.slideMail = function(){
+  var html = "yuntjs@gmail.com"
+  $('.gmail').on('click',function(event){
+    event.preventDefault();
+    $('.email-text').text(html).hide();
+    $('.email-text').text(html).show('shake');    
+  })
+}
+
 Controller.prototype.initialize = function(){
   this.findRest();
   this.findAgain();
+  this.slideMail();
 }
