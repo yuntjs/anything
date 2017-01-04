@@ -1,24 +1,14 @@
-# README
+# Eat Anything
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description of Project
+### Ever contemplate on where you want to eat? Use the anything app to choose one for you within your 10 miles radius.
 
-Things you may want to cover:
+## Quick Tour
+1. ### Home
+![Home](/readme-assets/home.png)
 
-* Ruby version
+2. ### Search
+![Search](/readme-assets/search.png)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+3. ### Result
+![Result](/readme-assets/result.png)
